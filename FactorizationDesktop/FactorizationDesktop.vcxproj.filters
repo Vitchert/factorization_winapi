@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="mpir">
+      <UniqueIdentifier>{0af19bcc-a491-4723-a024-fbabf78a660f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mpfr">
+      <UniqueIdentifier>{b6f07e4c-7a0b-4e30-bd53-f633033fb233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="factorization">
+      <UniqueIdentifier>{bc9f3495-4bb8-4afb-a3c6-7bc8fb639990}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FactorizationDesktop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpir\config.h">
+      <Filter>mpir</Filter>
+    </ClInclude>
+    <ClInclude Include="mpir\gmp.h">
+      <Filter>mpir</Filter>
+    </ClInclude>
+    <ClInclude Include="mpir\gmp-impl.h">
+      <Filter>mpir</Filter>
+    </ClInclude>
+    <ClInclude Include="mpir\gmp-mparam.h">
+      <Filter>mpir</Filter>
+    </ClInclude>
+    <ClInclude Include="mpir\gmpxx.h">
+      <Filter>mpir</Filter>
+    </ClInclude>
+    <ClInclude Include="mpir\longlong.h">
+      <Filter>mpir</Filter>
+    </ClInclude>
+    <ClInclude Include="mpir\mpir.h">
+      <Filter>mpir</Filter>
+    </ClInclude>
+    <ClInclude Include="mpir\mpirxx.h">
+      <Filter>mpir</Filter>
+    </ClInclude>
+    <ClInclude Include="mpfr\mpfr.h">
+      <Filter>mpfr</Filter>
+    </ClInclude>
+    <ClInclude Include="factorization\Header.h">
+      <Filter>factorization</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FactorizationDesktop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="factorization\AtkinSieve.cpp">
+      <Filter>factorization</Filter>
+    </ClCompile>
+    <ClCompile Include="factorization\Source.cpp">
+      <Filter>factorization</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FactorizationDesktop.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="FactorizationDesktop.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="mpir\mpir.lib">
+      <Filter>mpir</Filter>
+    </Library>
+    <Library Include="mpir\mpirxx.lib">
+      <Filter>mpir</Filter>
+    </Library>
+    <Library Include="mpfr\mpfr.lib">
+      <Filter>mpfr</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="mpir\mpir.pdb">
+      <Filter>mpir</Filter>
+    </None>
+    <None Include="mpir\mpirxx.pdb">
+      <Filter>mpir</Filter>
+    </None>
+    <None Include="mpfr\mpfr.pdb">
+      <Filter>mpfr</Filter>
+    </None>
+  </ItemGroup>
+</Project>
